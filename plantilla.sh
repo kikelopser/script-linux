@@ -1,4 +1,6 @@
 ## CODIGO
+
+```
 !/bin/bash
 Author: Enrique López Serrano
 Version: 1.0
@@ -35,3 +37,4 @@ sleep2
 . ScriptMultiusos.sh
 ;;
 esac
+```
