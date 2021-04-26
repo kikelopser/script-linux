@@ -9,3 +9,4 @@
 
 # Referencias
 ## https://jesusfernandeztoledo.com/linux/
+## Yo con tus conocimientos en clase <3
