@@ -4,7 +4,7 @@
 
 # 2.- Nombre del script.
 ## MultiUsos -> En este Script vamos a poder ver un Menú donde podemos elegir la tarea a realizar, algunas de las tareas son: Reiniciar la interfaz de red, apagar o reiniciar el equipo y mostrar puertos abiertos.
-## JuegosPreguntas -> En este Script vamos a jugar al tipico juego de preguntas y respuestas, en el que si vas acertando vas subiendo de nivel hasta conseguir el titulo de "Magister".
+## CopiaRestauraSeguridad -> En este Script vamos a poder realizar copias de seguridad, restaurarlas e incluso de ver la hora actual.
 
 # Referencias
 ## https://jesusfernandeztoledo.com/linux/
