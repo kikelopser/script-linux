@@ -1,6 +1,9 @@
 ## Funcionalidad
+Este script será capaz de realizar una copia de seguridad, de restaurarla e incluso de ver la hora.
 
-
+## Prueba del Script
+![image](https://user-images.githubusercontent.com/58082614/116123258-179e0e80-a6c3-11eb-9f86-391e92949620.png)
+![image](https://user-images.githubusercontent.com/58082614/116123294-22f13a00-a6c3-11eb-8c58-1896fbc454ec.png)
 
 ## Codigo
 ```
