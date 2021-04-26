@@ -1,4 +1,5 @@
-# script-linux
+# ![image](https://user-images.githubusercontent.com/58082614/116123837-ca6e6c80-a6c3-11eb-9bad-b9fd4966646e.png)
+
 # 1.- Descripción del proyecto. 
 ## En este repositorio encontrarás diferentes scripts que han hecho mi vida más simple. Encontrarás scripts básicos y otros más elaborados que hacen funciones básicas pero interesantes.
 
