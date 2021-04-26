@@ -1,10 +1,10 @@
 ## CODIGO
 
 ```
-!/bin/bash
-Author: Enrique López Serrano
-Version: 1.0
-Description: Bienvenidos a los scripts
+# !/bin/bash
+# Author: Enrique López Serrano
+# Version: 1.0
+# Description: Bienvenidos a los scripts
 clear
 echo "--------------------------------"
 echo "              MENU              "
