@@ -7,6 +7,10 @@ La estructura “case”. Empieza por case “$variable” in. Luego, en la sigu
 
 Finalmente, para cerrar la estructura se escribe: esac, que no es otra cosa sino case, escrito al revés.
 
+## Prueba del script
+
+![image](https://user-images.githubusercontent.com/58082614/116122365-f983de80-a6c1-11eb-8c30-4b2db24750d2.png)
+
 ## Codigo
 
 ```
