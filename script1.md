@@ -19,33 +19,35 @@ Finalmente, para cerrar la estructura se escribe: esac, que no es otra cosa sino
 # Version: 1.0
 # Description: Bienvenidos a los scripts
 clear
-echo "Bienvenidos a GnuTrivial."
-sleep 2
-echo "Soy el típico juego de preguntas y respuestas."
-sleep 2
-echo "Si aciertas todas las preguntas, te concederé el título de magister del universo."
-echo "¿Cómo se llamaba el último emperador Romano de occidente, Claudio, Teodosio o Rómulo."
-read respuesta1
-if test $respuesta1 = Rómulo
-then
-echo "Respuesta correcta."
-else
-echo "Lo siento, la respuesta correcta es: Rómulo."
-fi
-sleep 2
-echo "Pasemos a la siguiente pregunta. ¿Qué célebre filósofo Griego tuvo por discípulo a Alejandro Magno, Platón, Aristóteles o Zenón?"
-read respuesta2
-if test $respuesta2 = Aristóteles
-then
-echo "respuesta correcta."
-else
-echo "Lo siento, la respuesta correcta es: Aristóteles."
-fi
-if test $respuesta1 = Rómulo && test $respuesta2 = Aristóteles
-then
-echo "Eres un pequeño magister del universo."
-else
-then
-echo "NO eres un pequeño magister del universo."
-fi
+echo "--------------------------------"
+echo "              MENU              "
+echo "--------------------------------"
+echo "1. Reiniciar la interfaz de red."
+echo "2. Apagar equipo."
+echo "3. Reiniciar equipo."
+echo "4. Mostrar puertos abiertos."
+echo "5. Salir."
+read opcion
+case $opcion in
+1)
+/etc/init.d/networking restart
+;;
+2)
+shutdown -h now
+;;
+3)
+reboot
+;;
+4)
+nmap localhost
+;;
+5)
+exit
+;;
+*)
+echo Opción no válida
+sleep2
+. ScriptMultiusos.sh
+;;
+esac
 ```
